@@ -9,5 +9,10 @@ name = "gofmt"
 mode = "comment"
 
 [[plugin]]
+name = "golangci-lint"
+version = "2.9.0"
+mode = "comment"
+
+[[plugin]]
 name = "radarlint-go"
 mode = "comment"

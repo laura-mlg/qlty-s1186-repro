@@ -15,7 +15,15 @@ func NewMetricsNoop() Metrics {
 
 type metricsNoop struct{}
 
-func (m metricsNoop) RecordElectedAsPrimary(elected bool) {}
-func (m metricsNoop) RecordSchedulerRun(eventLabel string) {}
-func (m metricsNoop) RecordSchedulerRunDuration(duration float64) {}
-func (m metricsNoop) RecordSchedulerError(eventType string) {}
+func (m metricsNoop) RecordElectedAsPrimary(elected bool) {
+	// intentionally empty
+}
+func (m metricsNoop) RecordSchedulerRun(eventLabel string) {
+	// intentionally empty
+}
+func (m metricsNoop) RecordSchedulerRunDuration(duration float64) {
+	// intentionally empty
+}
+func (m metricsNoop) RecordSchedulerError(eventType string) {
+	// intentionally empty
+}

@@ -11,16 +11,16 @@ type nopLogger struct{}
 func (nopLogger) Debug(ctx context.Context, msg string) {
 	// intentionally empty
 }
-func (nopLogger) Info(ctx context.Context, msg string)  {
+func (nopLogger) Info(ctx context.Context, msg string) {
 	// intentionally empty
 }
-func (nopLogger) Warn(ctx context.Context, msg string)  {
+func (nopLogger) Warn(ctx context.Context, msg string) {
 	// intentionally empty
 }
 func (nopLogger) Error(ctx context.Context, msg string) {
 	// intentionally empty
 }
-func (nopLogger) Flush()                                {
+func (nopLogger) Flush() {
 	// intentionally empty
 }
 
